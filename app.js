@@ -1,12 +1,12 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const { sequelize } = require("./models");
+const { sequelize } = require("./src/models");
 
-const authRoutes = require("./routes/authRoutes");
-const expenseRoutes = require("./routes/expenseRoutes");
-const incomeRoutes = require("./routes/incomeRoutes");
-const balanceRoutes = require("./routes/balanceRoutes");
+const authRoutes = require("./src/routes/authRoutes");
+const expenseRoutes = require("./src/routes/expenseRoutes");
+const incomeRoutes = require("./src/routes/incomeRoutes");
+const balanceRoutes = require("./src/routes/balanceRoutes");
 require("dotenv").config();
 
 
