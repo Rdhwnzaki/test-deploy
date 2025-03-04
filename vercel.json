@@ -12,6 +12,7 @@
       "dest": "app.js"
     }
   ],
+  "installCommand": "npm install",
   "env": {
     "NODE_ENV": "production"
   }
